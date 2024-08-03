@@ -14,7 +14,7 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'api.settings')
 
 #Para fazer deploy da aplicação no vercel
-app = get_wsgi_application()
+#app = get_wsgi_application()
 
 #Para rodar a aplicação dockerizada*/
-# application = get_wsgi_application()
+application = get_wsgi_application()
