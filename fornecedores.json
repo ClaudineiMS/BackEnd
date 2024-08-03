@@ -1,0 +1,227 @@
+[
+    {
+        "nome": "Fornecedor 1",
+        "logo": "https://via.placeholder.com/150/1.png",
+        "estado_de_origem": "MG",
+        "custo": "10.00",
+        "limite_mínimo": 200,
+        "numero_total_de_clientes": 10,
+        "avaliação_média_dos_clientes": "10.00"
+    },
+    {
+        "nome": "Fornecedor 2",
+        "logo": "https://via.placeholder.com/150/2.png",
+        "estado_de_origem": "SP",
+        "custo": "20.00",
+        "limite_mínimo": 400,
+        "numero_total_de_clientes": 20,
+        "avaliação_média_dos_clientes": "9.00"
+    },
+    {
+        "nome": "Fornecedor 3",
+        "logo": "https://via.placeholder.com/150/3.png",
+        "estado_de_origem": "RJ",
+        "custo": "30.00",
+        "limite_mínimo": 600,
+        "numero_total_de_clientes": 30,
+        "avaliação_média_dos_clientes": "8.00"
+    },
+    {
+        "nome": "Fornecedor 4",
+        "logo": "https://via.placeholder.com/150/4.png",
+        "estado_de_origem": "BA",
+        "custo": "40.00",
+        "limite_mínimo": 800,
+        "numero_total_de_clientes": 40,
+        "avaliação_média_dos_clientes": "7.00"
+    },
+    {
+        "nome": "Fornecedor 5",
+        "logo": "https://via.placeholder.com/150/5.png",
+        "estado_de_origem": "PR",
+        "custo": "50.00",
+        "limite_mínimo": 1000,
+        "numero_total_de_clientes": 50,
+        "avaliação_média_dos_clientes": "6.00"
+    },
+    {
+        "nome": "Fornecedor 6",
+        "logo": "https://via.placeholder.com/150/6.png",
+        "estado_de_origem": "SC",
+        "custo": "60.00",
+        "limite_mínimo": 1200,
+        "numero_total_de_clientes": 60,
+        "avaliação_média_dos_clientes": "5.00"
+    },
+    {
+        "nome": "Fornecedor 7",
+        "logo": "https://via.placeholder.com/150/7.png",
+        "estado_de_origem": "RS",
+        "custo": "70.00",
+        "limite_mínimo": 1400,
+        "numero_total_de_clientes": 70,
+        "avaliação_média_dos_clientes": "4.00"
+    },
+    {
+        "nome": "Fornecedor 8",
+        "logo": "https://via.placeholder.com/150/8.png",
+        "estado_de_origem": "GO",
+        "custo": "80.00",
+        "limite_mínimo": 1600,
+        "numero_total_de_clientes": 80,
+        "avaliação_média_dos_clientes": "3.00"
+    },
+    {
+        "nome": "Fornecedor 9",
+        "logo": "https://via.placeholder.com/150/9.png",
+        "estado_de_origem": "ES",
+        "custo": "90.00",
+        "limite_mínimo": 1800,
+        "numero_total_de_clientes": 90,
+        "avaliação_média_dos_clientes": "2.00"
+    },
+    {
+        "nome": "Fornecedor 10",
+        "logo": "https://via.placeholder.com/150/10.png",
+        "estado_de_origem": "PE",
+        "custo": "100.00",
+        "limite_mínimo": 2000,
+        "numero_total_de_clientes": 100,
+        "avaliação_média_dos_clientes": "1.00"
+    },
+    {
+        "nome": "Fornecedor 11",
+        "logo": "https://via.placeholder.com/150/11.png",
+        "estado_de_origem": "CE",
+        "custo": "110.00",
+        "limite_mínimo": 2200,
+        "numero_total_de_clientes": 110,
+        "avaliação_média_dos_clientes": "9.00"
+    },
+    {
+        "nome": "Fornecedor 12",
+        "logo": "https://via.placeholder.com/150/12.png",
+        "estado_de_origem": "RN",
+        "custo": "120.00",
+        "limite_mínimo": 2400,
+        "numero_total_de_clientes": 120,
+        "avaliação_média_dos_clientes": "8.00"
+    },
+    {
+        "nome": "Fornecedor 13",
+        "logo": "https://via.placeholder.com/150/13.png",
+        "estado_de_origem": "PB",
+        "custo": "130.00",
+        "limite_mínimo": 2600,
+        "numero_total_de_clientes": 130,
+        "avaliação_média_dos_clientes": "7.00"
+    },
+    {
+        "nome": "Fornecedor 14",
+        "logo": "https://via.placeholder.com/150/14.png",
+        "estado_de_origem": "PI",
+        "custo": "140.00",
+        "limite_mínimo": 2800,
+        "numero_total_de_clientes": 140,
+        "avaliação_média_dos_clientes": "6.00"
+    },
+    {
+        "nome": "Fornecedor 15",
+        "logo": "https://via.placeholder.com/150/15.png",
+        "estado_de_origem": "MA",
+        "custo": "150.00",
+        "limite_mínimo": 3000,
+        "numero_total_de_clientes": 150,
+        "avaliação_média_dos_clientes": "5.00"
+    },
+    {
+        "nome": "Fornecedor 16",
+        "logo": "https://via.placeholder.com/150/16.png",
+        "estado_de_origem": "PA",
+        "custo": "160.00",
+        "limite_mínimo": 3200,
+        "numero_total_de_clientes": 160,
+        "avaliação_média_dos_clientes": "4.00"
+    },
+    {
+        "nome": "Fornecedor 17",
+        "logo": "https://via.placeholder.com/150/17.png",
+        "estado_de_origem": "AM",
+        "custo": "170.00",
+        "limite_mínimo": 3400,
+        "numero_total_de_clientes": 170,
+        "avaliação_média_dos_clientes": "3.00"
+    },
+    {
+        "nome": "Fornecedor 18",
+        "logo": "https://via.placeholder.com/150/18.png",
+        "estado_de_origem": "RR",
+        "custo": "180.00",
+        "limite_mínimo": 3600,
+        "numero_total_de_clientes": 180,
+        "avaliação_média_dos_clientes": "2.00"
+    },
+    {
+        "nome": "Fornecedor 19",
+        "logo": "https://via.placeholder.com/150/19.png",
+        "estado_de_origem": "RO",
+        "custo": "190.00",
+        "limite_mínimo": 3800,
+        "numero_total_de_clientes": 190,
+        "avaliação_média_dos_clientes": "1.00"
+    },
+    {
+        "nome": "Fornecedor 20",
+        "logo": "https://via.placeholder.com/150/20.png",
+        "estado_de_origem": "AC",
+        "custo": "200.00",
+        "limite_mínimo": 4000,
+        "numero_total_de_clientes": 200,
+        "avaliação_média_dos_clientes": "10.00"
+    },
+    {
+        "nome": "Fornecedor 21",
+        "logo": "https://via.placeholder.com/150/21.png",
+        "estado_de_origem": "AP",
+        "custo": "210.00",
+        "limite_mínimo": 4200,
+        "numero_total_de_clientes": 210,
+        "avaliação_média_dos_clientes": "9.00"
+    },
+    {
+        "nome": "Fornecedor 22",
+        "logo": "https://via.placeholder.com/150/22.png",
+        "estado_de_origem": "TO",
+        "custo": "220.00",
+        "limite_mínimo": 4400,
+        "numero_total_de_clientes": 220,
+        "avaliação_média_dos_clientes": "8.00"
+    },
+    {
+        "nome": "Fornecedor 23",
+        "logo": "https://via.placeholder.com/150/23.png",
+        "estado_de_origem": "MT",
+        "custo": "230.00",
+        "limite_mínimo": 4600,
+        "numero_total_de_clientes": 230,
+        "avaliação_média_dos_clientes": "7.00"
+    },
+    {
+        "nome": "Fornecedor 24",
+        "logo": "https://via.placeholder.com/150/24.png",
+        "estado_de_origem": "MS",
+        "custo": "240.00",
+        "limite_mínimo": 4800,
+        "numero_total_de_clientes": 240,
+        "avaliação_média_dos_clientes": "6.00"
+    },
+    {
+        "nome": "Fornecedor 25",
+        "logo": "https://via.placeholder.com/150/25.png",
+        "estado_de_origem": "DF",
+        "custo": "250.00",
+        "limite_mínimo": 5000,
+        "numero_total_de_clientes": 250,
+        "avaliação_média_dos_clientes": "5.00"
+    }
+]
