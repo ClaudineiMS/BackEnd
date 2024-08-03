@@ -59,6 +59,7 @@ ROOT_URLCONF = 'api.urls'
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',  
     'https://django-backend-iota.vercel.app',  
+    'https://front-end-orpin-chi.vercel.app/'
 ]
 
 CORS_ALLOW_ALL_ORIGINS = False
