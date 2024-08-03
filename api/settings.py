@@ -56,6 +56,13 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'api.urls'
 
+CORS_ALLOWED_ORIGINS = [
+    "https://example.com",
+    "http://localhost:3000",
+]
+
+CORS_ALLOW_ALL_ORIGINS = False
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
