@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-=cldztbc4jg&xl0!x673!*v2_=p$$eu)=7*f#d0#zs$44xx-h^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app']
 
 
 # Application definition
@@ -39,12 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'example',
-    'rest_framework',
-    'corsheaders',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
-    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -55,13 +53,6 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'api.urls'
-
-CORS_ALLOWED_ORIGINS = [
-    "https://example.com",
-    "http://localhost:3000",
-]
-
-CORS_ALLOW_ALL_ORIGINS = False
 
 TEMPLATES = [
     {
