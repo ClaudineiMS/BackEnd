@@ -13,15 +13,16 @@ python manage.py test --settings=api.test_settings
 
 Seram feitos 5 testes simples 
 
-test_index_url: Verifica se a URL para a view index está funcionando corretamente e retorna o código de status HTTP 200 OK.
+**test_index_url**: Verifica se a URL para a view index está funcionando corretamente e retorna o código de status HTTP 200 OK.
 
-test_fornecedores_url: Verifica se a URL para a view fornecedores está funcionando corretamente e retorna o código de status HTTP 200 OK.
+**test_fornecedores_url**: Verifica se a URL para a view fornecedores está funcionando corretamente e retorna o código de status HTTP 200 OK.
 
-test_fornecedores_por_consumo_url: Verifica se a URL para a view fornecedores_por_consumo com um parâmetro de consumo válido retorna o código de status HTTP 200 OK.
+**test_fornecedores_por_consumo_url**: Verifica se a URL para a view fornecedores_por_consumo com um parâmetro de consumo válido retorna o código de status HTTP 200 OK.
 
-test_fornecedores_por_consumo_nao_atentido: Verifica se a URL para a view fornecedores_por_consumo com um parâmetro de consumo que não atende a nenhum fornecedor ainda retorna o código de status HTTP 200 OK.
+**test_fornecedores_por_consumo_nao_atentido**: Verifica se a URL para a view fornecedores_por_consumo com um parâmetro de consumo que não atende a nenhum fornecedor ainda retorna o código de status HTTP 200 OK.
 
-test_fornecedores_por_consumo_vazio: Verifica se a URL para a view fornecedores_por_consumo com um parâmetro de consumo vazio (None) retorna o código de status HTTP 200 OK.
+**test_fornecedores_por_consumo_vazio**: Verifica se a URL para a view fornecedores_por_consumo com um parâmetro de consumo vazio (None) retorna o código de status HTTP 200 OK.
+
 
 ## Como dockerizar a aplicação
 
