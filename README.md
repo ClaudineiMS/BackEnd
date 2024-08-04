@@ -1,7 +1,43 @@
 ## Branchs
-A branch **main** está configurada para funcionar no vercel.
+A branch **main** está configurada para funcionar no **Vercel**.
 
-A branch **teste_automatizado_back** está configurada com os testes automatizados e para funcionar dockerizada ( ler tótpico: Como dockerizar a aplicação)
+A branch **teste_automatizado_back** está configurada com os testes automatizados e para funcionar dockerizada.
+
+backend no **Vercel:** https://django-backend-amber.vercel.app/
+
+Endpoints: 
+
+https://django-backend-amber.vercel.app/fornecedores
+
+https://django-backend-amber.vercel.app/fornecedores/consumo/800
+
+## Configuração do ambiente virtual
+
+Para criar e configurar um ambiente virtual para a aplicação siga os passos abaixo:
+
+**Crie um ambiente virtual com Python 3.9**
+
+Execute o seguinte comando para criar um ambiente virtual chamado **venv**:
+
+```bash
+python3.9 -m venv venv
+```
+No Linux: 
+
+```bash
+source venv/bin/activate
+```
+
+Va até o diretório django-hello-world e execute:
+```bash
+pip install -r requirements.txt
+```
+
+## Executando o ambiente 
+Execute:
+```bash
+python3.9 manage.py runserver
+```
 
 
 ## Django testes automatizados
