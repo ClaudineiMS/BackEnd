@@ -17,7 +17,7 @@ class URLTests(TestCase):
         response = self.client.get(reverse('fornecedores_por_consumo', args=[500]))
         self.assertEqual(response.status_code, 200) 
 
-    def test_fornecedores_por_consumo_nao_atentido(self):
+    def test_fornecedores_por_consumo_nao_atendido(self):
         response = self.client.get(reverse('fornecedores_por_consumo', args=[100]))
         self.assertEqual(response.status_code, 200) 
 
