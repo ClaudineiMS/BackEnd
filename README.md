@@ -64,12 +64,6 @@ Seram feitos 5 testes simples
 
 ## Como dockerizar a aplicação
 
-No arqruivo **wsgi.py** descomente a variável **application = get_wsgi_application()**
-
-e comente a variável **app = get_wsgi_application()**
-
-Após essa mudança execute: 
-
 ```bash
 docker-compose build
 docker-compose up
