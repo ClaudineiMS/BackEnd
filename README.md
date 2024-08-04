@@ -4,9 +4,13 @@ A branch **main** está configurada para funcionar no **Vercel**.
 A branch **teste_automatizado_back** está configurada com os testes automatizados e para funcionar dockerizada.
 
 backend no **Vercel:** https://django-backend-amber.vercel.app/
+
+
 Endpoints: 
-            /fornecedores
-            /fornecedores/consumo/<valor>
+            
+            https://django-backend-amber.vercel.app/fornecedores
+
+            https://django-backend-amber.vercel.app/fornecedores/consumo/800
 
 ## Configuração do ambiente virtual
 
