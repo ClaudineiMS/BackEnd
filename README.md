@@ -28,7 +28,7 @@ No Linux:
 source venv/bin/activate
 ```
 
-Va até o diretório django-hello-world e execute:
+Com a venv ativa va até o diretório django-hello-world e execute:
 ```bash
 pip install -r requirements.txt
 ```
