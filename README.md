@@ -1,6 +1,7 @@
 ## Branchs
-A branch main está configurada para funcionar no vercel.
-A branch teste_automatizado_back está configurada com os testes automatizados e para funcionar dockerizada ( ler tótpico: Como dockerizar a aplicação)
+A branch **main** está configurada para funcionar no vercel.
+
+A branch **teste_automatizado_back** está configurada com os testes automatizados e para funcionar dockerizada ( ler tótpico: Como dockerizar a aplicação)
 
 
 ## Django testes automatizados
@@ -13,25 +14,16 @@ python manage.py test --settings=api.test_settings
 
 Seram feitos 5 testes simples 
 
-test_index_url
+**test_index_url**: Verifica se a URL para a view index está funcionando corretamente e retorna o código de status HTTP 200 OK.
 
-    Verifica se a URL para a view index está funcionando corretamente e retorna o código de status HTTP 200 OK.
+**test_fornecedores_url**: Verifica se a URL para a view fornecedores está funcionando corretamente e retorna o código de status HTTP 200 OK.
 
-test_fornecedores_url
+**test_fornecedores_por_consumo_url**: Verifica se a URL para a view fornecedores_por_consumo com um parâmetro de consumo válido retorna o código de status HTTP 200 OK.
 
-   Verifica se a URL para a view fornecedores está funcionando corretamente e retorna o código de status HTTP 200 OK.
+**test_fornecedores_por_consumo_nao_atentido**: Verifica se a URL para a view fornecedores_por_consumo com um parâmetro de consumo que não atende a nenhum fornecedor ainda retorna o código de status HTTP 200 OK.
 
-test_fornecedores_por_consumo_url
+**test_fornecedores_por_consumo_vazio**: Verifica se a URL para a view fornecedores_por_consumo com um parâmetro de consumo vazio (None) retorna o código de status HTTP 200 OK.
 
-    Verifica se a URL para a view fornecedores_por_consumo com um parâmetro de consumo válido retorna o código de status HTTP 200 OK.
-
-test_fornecedores_por_consumo_nao_atentido
-
-    Verifica se a URL para a view fornecedores_por_consumo com um parâmetro de consumo que não atende a nenhum fornecedor ainda retorna o código de status HTTP 200 OK.
-
-test_fornecedores_por_consumo_vazio
-
-    Verifica se a URL para a view fornecedores_por_consumo com um parâmetro de consumo vazio (None) retorna o código de status HTTP 200 OK.
 
 ## Como dockerizar a aplicação
 
