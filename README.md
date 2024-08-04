@@ -1,9 +1,14 @@
 ## Branchs
-A branch **main** está configurada para funcionar no vercel.
+A branch **main** está configurada para funcionar no **Vercel**.
 
-A branch **teste_automatizado_back** está configurada com os testes automatizados e para funcionar dockerizada ( ler tótpico: Como dockerizar a aplicação)
+A branch **teste_automatizado_back** está configurada com os testes automatizados e para funcionar dockerizada.
 
-## Configuração do Ambiente Virtual
+backend no **Vercel:** https://django-backend-amber.vercel.app/
+Endpoints: 
+            /fornecedores
+            /fornecedores/consumo/<valor>
+
+## Configuração do ambiente virtual
 
 Para criar e configurar um ambiente virtual para a aplicação siga os passos abaixo:
 
