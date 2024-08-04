@@ -1,4 +1,5 @@
 ## Branches
+
 A branch **main** está configurada para funcionar no **Vercel**.
 
 A branch **teste_automatizado_back** está configurada com os testes automatizados e para funcionar dockerizada.
