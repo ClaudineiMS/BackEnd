@@ -38,3 +38,6 @@ Para construir a imagem do Docker, execute o seguinte comando:
 ```bash
 docker-compose build
 docker-compose up
+
+
+A aplicação está disponivel na porta 8000
