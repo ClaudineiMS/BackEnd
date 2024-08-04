@@ -1,6 +1,7 @@
 ## Branchs
-A branch main está configurada para funcionar no vercel.
-A branch teste_automatizado_back está configurada com os testes automatizados e para funcionar dockerizada ( ler tótpico: Como dockerizar a aplicação)
+A branch **main** está configurada para funcionar no vercel.
+
+A branch **teste_automatizado_back** está configurada com os testes automatizados e para funcionar dockerizada ( ler tótpico: Como dockerizar a aplicação)
 
 
 ## Django testes automatizados
