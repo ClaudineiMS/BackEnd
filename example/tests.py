@@ -22,6 +22,6 @@ class URLTests(TestCase):
         self.assertEqual(response.status_code, 200) 
 
     #Teste que falha
-    # def test_fornecedores_por_consumo_vazio(self):
-    #     response = self.client.get(reverse('fornecedores_por_consumo', args=[None]))
-    #     self.assertEqual(response.status_code, 200)  
+    def test_fornecedores_por_consumo_vazio(self):
+        response = self.client.get(reverse('fornecedores_por_consumo', args=[None]))
+        self.assertEqual(response.status_code, 200)  
