@@ -70,8 +70,6 @@ e comente a variável **app = get_wsgi_application()**
 
 Após essa mudança execute: 
 
-Para construir a imagem do Docker, execute o seguinte comando:
-
 ```bash
 docker-compose build
 docker-compose up
