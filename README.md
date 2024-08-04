@@ -5,12 +5,11 @@ A branch **teste_automatizado_back** está configurada com os testes automatizad
 
 backend no **Vercel:** https://django-backend-amber.vercel.app/
 
-
 Endpoints: 
-            
-            https://django-backend-amber.vercel.app/fornecedores
 
-            https://django-backend-amber.vercel.app/fornecedores/consumo/800
+https://django-backend-amber.vercel.app/fornecedores
+
+https://django-backend-amber.vercel.app/fornecedores/consumo/800
 
 ## Configuração do ambiente virtual
 
