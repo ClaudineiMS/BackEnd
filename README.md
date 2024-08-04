@@ -7,8 +7,9 @@ A branch **teste_automatizado_back** está configurada com os testes automatizad
 ## Django testes automatizados
 
 Navegue até o diretório django-hello-world e execute
-
-python manage.py test --settings=api.test_settings
+```bash
+python3.9 manage.py test --settings=api.test_settings
+```
 
 ## Tipos de teste
 
