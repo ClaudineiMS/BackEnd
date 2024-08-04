@@ -20,8 +20,13 @@ No Linux:
 source venv/bin/activate
 ```
 
+Va até o diretório django-hello-world e execute:
+```bash
+pip install -r requirements.txt
+```
+
 ## Executando o ambiente 
-Execute
+Execute:
 ```bash
 python3.9 manage.py runserver
 ```
