@@ -3,6 +3,29 @@ A branch **main** está configurada para funcionar no vercel.
 
 A branch **teste_automatizado_back** está configurada com os testes automatizados e para funcionar dockerizada ( ler tótpico: Como dockerizar a aplicação)
 
+## Configuração do Ambiente Virtual
+
+Para criar e configurar um ambiente virtual para a aplicação siga os passos abaixo:
+
+**Crie um ambiente virtual com Python 3.9**
+
+Execute o seguinte comando para criar um ambiente virtual chamado **venv**:
+
+```bash
+python3.9 -m venv venv
+```
+No Linux: 
+
+```bash
+source venv/bin/activate
+```
+
+## Executando o ambiente 
+Execute
+```bash
+python3.9 manage.py runserver
+```
+
 
 ## Django testes automatizados
 
