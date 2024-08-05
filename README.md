@@ -42,6 +42,8 @@ python3.9 manage.py runserver
 
 ## Django testes automatizados
 
+Vá para a branch teste_automatizado_back
+
 Navegue até o diretório django-hello-world e execute
 ```bash
 python3.9 manage.py test --settings=api.test_settings
