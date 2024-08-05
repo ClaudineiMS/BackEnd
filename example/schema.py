@@ -27,7 +27,7 @@ class Query(graphene.ObjectType):
         fornecedores = load_data()
         if consumo is not None:
             # Filtra fornecedores com base no consumo
-            fornecedores = [fornecedorees for fornecedorees in fornecedores if fornecedorees['limite_minimo'] <= consumo]
+            fornecedores = [fornecedorees for fornecedorees in fornecedores if fornecedorees['limite_minimo'] < consumo]
         return fornecedores
 
 #Esquema GraphQL
