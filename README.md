@@ -64,6 +64,8 @@ Seram feitos 5 testes simples
 **test_fornecedores_por_consumo_vazio**: Verifica se a URL para a view fornecedores_por_consumo com um parâmetro de consumo vazio (None) retorna o código de status HTTP 200 OK.
 
 
+![Testes](Testes.png)
+
 ## Como dockerizar a aplicação
 
 ```bash
@@ -72,3 +74,10 @@ docker-compose up
 ```
 
 A aplicação está disponivel na porta 8000
+
+
+## GraphQl
+
+Retorna todos os fornecedores ou fornecedores por consumo. 
+
+![GraphQl](graphql.png)
