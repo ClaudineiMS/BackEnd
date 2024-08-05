@@ -14,6 +14,7 @@ class FornecedorType(graphene.ObjectType):
     custo = graphene.Float()
     avaliacao_media_dos_clientes = graphene.String()
     logo = graphene.String()
+    estado_de_origem = graphene.String()
 
 # Define a Query para retornar fornecedores com base no consumo
 class Query(graphene.ObjectType):
