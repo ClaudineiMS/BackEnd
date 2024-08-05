@@ -1,16 +1,15 @@
 ## Branches
-
 A branch **main** está configurada para funcionar no **Vercel**.
 
-A branch **teste_automatizado_back** está configurada com os testes automatizados e para funcionar dockerizada.Além disso também está utilizando o graphQl.
+A branch **teste_automatizado_back** está configurada com os testes automatizados e para funcionar dockerizada. Além disso também está utilizando o graphQl.
 
-backend no **Vercel:** https://django-backend-amber.vercel.app/
+backend no **Vercel:** https://back-end-nine-peach.vercel.app/
 
 Endpoints: 
 
-https://django-backend-amber.vercel.app/fornecedores
+https://back-end-nine-peach.vercel.app/fornecedores/
 
-https://django-backend-amber.vercel.app/fornecedores/consumo/800
+https://back-end-nine-peach.vercel.app/fornecedores/consumo/800
 
 ## Configuração do ambiente virtual
 
