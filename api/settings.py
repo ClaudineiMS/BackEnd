@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'example',
     'rest_framework',
     'corsheaders',
+    'graphene_django',
 ]
 
 MIDDLEWARE = [

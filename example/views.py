@@ -62,7 +62,7 @@ class FornecedoresPorConsumo(View):
             # Filtra fornecedores com consumo maior ou igual ao limite mínimo
             fornecedores_filtrados = [
                 fornecedor for fornecedor in fornecedores
-                if fornecedor.get('limite_mínimo', 0) <= consumo
+                if fornecedor.get('limite_minimo', 0) <= consumo
             ]
 
             return JsonResponse(fornecedores_filtrados, safe=False)
